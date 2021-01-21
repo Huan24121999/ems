@@ -1,4 +1,4 @@
-package com.viettel.ems.entity;
+package com.viettel.ems.payload;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

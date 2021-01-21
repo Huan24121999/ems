@@ -1,7 +1,7 @@
 package com.viettel.ems.controller;
 
 import com.viettel.ems.entity.Alarm;
-import com.viettel.ems.entity.AlarmPayload;
+import com.viettel.ems.payload.AlarmPayload;
 import com.viettel.ems.entity.AlarmType;
 import com.viettel.ems.entity.CurrentAlarm;
 import com.viettel.ems.entity.json.JsonResult;
