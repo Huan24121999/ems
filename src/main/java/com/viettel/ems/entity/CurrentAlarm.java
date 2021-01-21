@@ -3,10 +3,14 @@ package com.viettel.ems.entity;
 import lombok.Data;
 
 import javax.persistence.*;
-import java.sql.Date;
+import java.util.Date;
 
+/**
+ * @author HuanNT
+ */
 @Data
 @Entity
+@Table(name = "current_alarm")
 public class CurrentAlarm {
     private static final long serialVersionUID=1L;
 
@@ -23,6 +27,6 @@ public class CurrentAlarm {
     private Integer repeatCount;
 
     @ManyToOne
-    @JoinColumn(name = "alarmid")
+    @JoinColumn(name = "alarm_id")
     private Alarm alarm;
 }
